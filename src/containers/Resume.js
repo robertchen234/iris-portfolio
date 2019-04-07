@@ -4,7 +4,7 @@ class Resume extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="banner">
+        <div className="banner-small">
           <h2>My career timeline…</h2>
         </div>
         <div className="resume">

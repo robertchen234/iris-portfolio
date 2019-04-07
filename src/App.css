@@ -126,6 +126,28 @@ a:hover {
   color: #000;
 }
 
+button {
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid black;
+  color: black;
+  padding: 1.5em 2.5em 1.5em 2.5em;
+  margin: auto;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button a {
+  color: black;
+}
+
+button a:hover {
+  color: white;
+}
+
 .navbar {
   display: flex;
   height: 7em;
@@ -177,6 +199,18 @@ a:hover {
 .banner h2 {
   margin: auto;
   text-align: center;
+  flex-basis: 70%;
+}
+
+.banner-small {
+  height: 50vh;
+  display: flex;
+}
+
+.banner-small h2 {
+  margin: auto;
+  text-align: center;
+  flex-basis: 50%;
 }
 
 .images-container {
@@ -269,7 +303,8 @@ a:hover {
   background-color: #f1eee9;
 }
 
-.resume {
+.resume,
+.about {
   display: flex;
   flex-direction: column;
   margin: 0em 7em 0em 7em;
@@ -308,4 +343,45 @@ a:hover {
 .right {
   order: 2;
   flex: 1;
+}
+
+.about img {
+  order: 1;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.about blockquote {
+  order: 2;
+}
+
+.about-text {
+  order: 3;
+  margin: auto;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text h2 {
+  margin: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.about-text p {
+  margin: auto;
+  margin-bottom: -1em;
+}
+
+.contact-button {
+  order: 4;
+  margin: auto;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.contact-button a:hover {
+  order: 4;
+  color: white;
 }
