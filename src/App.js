@@ -1,28 +1,25 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Route, Switch, withRouter } from "react-router-dom";
+import Work from "./containers/Work";
+import Resume from "./containers/Resume";
+import About from "./containers/About";
+import Contact from "./containers/Contact";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <Switch>
+          <Route path="/work" component={Work} />
+          <Route path="/resume" component={Resume} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/" component={Work} />
+        </Switch>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);
