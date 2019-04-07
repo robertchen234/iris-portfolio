@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 class NavBar extends Component {
-  state = { currentLink: "work" };
+  state = { currentLink: window.location.pathname };
 
   clickHandler = path => {
     this.setState({ currentLink: path });

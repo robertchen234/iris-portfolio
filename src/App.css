@@ -268,3 +268,44 @@ a:hover {
 .white-xray {
   background-color: #f1eee9;
 }
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  margin: 0em 7em 0em 7em;
+}
+
+.resume-one,
+.resume-two,
+.resume-three,
+.resume-four {
+  flex: 1;
+  display: flex;
+  padding-bottom: 5em;
+}
+
+.resume-one {
+  order: 1;
+}
+
+.resume-two {
+  order: 2;
+}
+
+.resume-three {
+  order: 3;
+}
+
+.resume-four {
+  order: 4;
+}
+
+.left {
+  order: 1;
+  flex: 1;
+}
+
+.right {
+  order: 2;
+  flex: 1;
+}
