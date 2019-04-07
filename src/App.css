@@ -113,6 +113,19 @@ pre {
   cursor: pointer;
 }
 
+a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+.currentLink {
+  color: #000;
+}
+
 .navbar {
   display: flex;
   height: 7em;
