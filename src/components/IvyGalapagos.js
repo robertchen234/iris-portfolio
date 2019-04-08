@@ -4,7 +4,7 @@ const IvyGalapagos = () => {
   return (
     <div className="ivy-galapagos-container">
       <img
-        className="ivy-galapagos-text"
+        className="ivy-galapagos-text shadow"
         src="/assets/ivyGalapagosText.jpg"
         alt="ivy galapagos text"
       />

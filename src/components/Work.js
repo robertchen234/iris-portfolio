@@ -41,8 +41,10 @@ const Work = () => {
         </div>
 
         <div className="images-five">
-          <div className="images-wrap teal-caution">
-            <img src="/assets/tealCaution.jpeg" alt="teal caution" />
+          <div className="images-wrap hyperfundit-color">
+            <Link to="/hyperfundit-business">
+              <img className="hyperfundit-color" src="/assets/hyperfunditColor.png" alt="hyperfundit color" />
+            </Link>
           </div>
           <div className="images-wrap white-xray">
             <img src="/assets/whiteXray.jpeg" alt="white xray" />
