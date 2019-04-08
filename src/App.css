@@ -403,6 +403,20 @@ button a:hover {
   flex-direction: column;
 }
 
+.contact-email,
+.contact-subject,
+.contact-message {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  flex: 1;
+  padding: 1em;
+  font-size: 1em;
+}
+
 .contact button {
   margin-top: 4em;
   margin-bottom: 4em;
