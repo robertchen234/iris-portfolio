@@ -75,6 +75,17 @@ h4 {
   line-height: 1.2em;
 }
 
+h5 {
+  font-family: Europa;
+  font-size: 48px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 1.25em;
+  color: rgba(22, 22, 29, 1);
+}
+
 p {
   font-family: Futura PT;
   font-size: 1.5em;
@@ -193,7 +204,7 @@ button a:hover {
   display: flex;
 }
 
-.banner h2 {
+.banner h5 {
   margin: auto;
   text-align: center;
   flex-basis: 70%;
@@ -204,7 +215,7 @@ button a:hover {
   display: flex;
 }
 
-.banner-small h2 {
+.banner-small h5 {
   margin: auto;
   text-align: center;
   flex-basis: 50%;
@@ -342,9 +353,33 @@ button a:hover {
   flex: 1;
 }
 
+.left h3 {
+  font-family: Futura PT Heavy;
+  font-size: 22px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+  color: rgba(22, 22, 29, 1);
+}
+
 .right {
   order: 2;
   flex: 1;
+  margin-top: -0.5em;
+}
+
+.right h4 {
+  font-family: Futura PT;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  letter-spacing: 0.25em;
+  line-height: 1.2em;
+  margin-top: -6em;
+  color: grey;
 }
 
 .about img {

@@ -5,10 +5,10 @@ const About = () => {
   return (
     <React.Fragment>
       <div className="banner-small">
-        <h2>
+        <h5>
           Direct, creative, and flexible. Writes & designs digital media content
           for brands.
-        </h2>
+        </h5>
       </div>
       <div className="about">
         <img src="/assets/about.jpeg" alt="about" />

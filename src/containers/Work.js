@@ -5,9 +5,9 @@ const Work = () => {
   return (
     <React.Fragment>
       <div className="banner">
-        <h2>
+        <h5>
           — Iris is a copywriter, designer, and digital marketer from New York.
-        </h2>
+        </h5>
       </div>
       <div className="images-container pointer">
         <div className="images-one">

@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <React.Fragment>
       <div className="banner-small">
-        <h2>My career timeline…</h2>
+        <h5>My career timeline…</h5>
       </div>
       <div className="resume">
         <div className="resume-one">
@@ -12,7 +12,7 @@ const Resume = () => {
             <h3>December 2018 - Present</h3>
           </div>
           <div className="right">
-            <h3>IVY The Social University</h3>
+            <p>IVY The Social University</p>
             <h4>COMMUNICATION COORDINATOR</h4>
           </div>
         </div>
@@ -22,7 +22,7 @@ const Resume = () => {
             <h3>August 2016 - July 2018</h3>
           </div>
           <div className="right">
-            <h3>HyperFundIt</h3>
+            <p>HyperFundIt</p>
             <h4>CO-FOUNDER//MARKETING & COMMUNICATIONS</h4>
           </div>
         </div>
@@ -32,7 +32,7 @@ const Resume = () => {
             <h3>November 2017 - February 2018</h3>
           </div>
           <div className="right">
-            <h3>Go To My Apartment</h3>
+            <p>Go To My Apartment</p>
             <h4>CONTRACT DIGITAL MARKETING SPECIALIST</h4>
           </div>
         </div>
@@ -42,7 +42,7 @@ const Resume = () => {
             <h3>September 2016 - December 2016</h3>
           </div>
           <div className="right">
-            <h3>Artistix (Formerly The Evil Genius Group)</h3>
+            <p>Artistix (Formerly The Evil Genius Group)</p>
             <h4>MARKETING & PR INTERN</h4>
           </div>
         </div>

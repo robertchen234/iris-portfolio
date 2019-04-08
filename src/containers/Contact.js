@@ -13,7 +13,7 @@ class Contact extends Component {
     return (
       <React.Fragment>
         <div className="banner-small">
-          <h2>Say hello. Let's work together.</h2>
+          <h5>Say hello. Let's work together.</h5>
         </div>
         <div className="contact">
           <p>

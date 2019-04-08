@@ -22,7 +22,8 @@ code {
 @font-face {
   font-family: "Futura PT Heavy";
   src: url("./fonts/futurapt-heavy.eot"); /* IE9 Compat Modes */
-  src: url("./fonts/futurapt-heavy.eot?#iefix") format("embedded-opentype"),
+  src: local("Futura PT Heavy"), local("FuturaPTHeavy"),
+    url("./fonts/futurapt-heavy.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("./fonts/futurapt-heavy.woff") format("woff"),
     /* Pretty Modern Browsers */ url("./fonts/futurapt-heavy.ttf")
       format("truetype"); /* Safari, Android, iOS */
@@ -31,7 +32,8 @@ code {
 @font-face {
   font-family: "Futura PT Demi";
   src: url("./fonts/FuturaPT-Demi.eot"); /* IE9 Compat Modes */
-  src: url("./fonts/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"),
+  src: local("Futura PT Demi"), local("FuturaPTDemi"),
+    url("./fonts/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("./fonts/FuturaPT-Demi.woff") format("woff"),
     /* Pretty Modern Browsers */ url("./fonts/FuturaPT-Demi.ttf")
       format("truetype"); /* Safari, Android, iOS */
@@ -40,8 +42,21 @@ code {
 @font-face {
   font-family: "Futura PT";
   src: url("./fonts/futurapt-book.eot"); /* IE9 Compat Modes */
-  src: url("./fonts/futurapt-book.eot?#iefix") format("embedded-opentype"),
+  src: local("Futura PT"), local("FuturaPT"),
+    url("./fonts/futurapt-book.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("./fonts/futurapt-book.woff") format("woff"),
     /* Pretty Modern Browsers */ url("./fonts/futurapt-book.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "Europa";
+  src: url("./fonts/europa-regular-webfont.eot"); /* IE9 Compat Modes */
+  src: local("Europa"), local("Europa"),
+    url("./fonts/europa-regular-webfont.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/europa-regular-webfont.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/europa-regular-webfont.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/europa-regular-webfont.ttf")
       format("truetype"); /* Safari, Android, iOS */
 }
