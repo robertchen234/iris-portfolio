@@ -3,7 +3,22 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer">
-      <p>Footer</p>
+      <span className="footer-socials">
+        <a
+          href="https://www.instagram.com/iriszlee/"
+          rel="noopener"
+          target="_blank"
+        >
+          <img src="/assets/instagram.png" alt="instagram" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/iris-lee129/"
+          rel="noopener"
+          target="_blank"
+        >
+          <img src="/assets/linkedin.png" alt="linkedin" />
+        </a>
+      </span>
     </div>
   );
 };

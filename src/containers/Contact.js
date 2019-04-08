@@ -18,7 +18,15 @@ class Contact extends Component {
         <div className="contact">
           <p>
             Find me on social media, use the form below, or hit me up via email
-            at <a href="mailto:iris.lee129@gmail.com">iris.lee129@gmail.com</a>.
+            at{" "}
+            <a
+              href="mailto:iris.lee129@gmail.com"
+              rel="noopener"
+              target="_blank"
+            >
+              iris.lee129@gmail.com
+            </a>
+            .
           </p>
 
           <form onSubmit={this.submitHandler}>
