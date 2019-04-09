@@ -73,7 +73,11 @@ class Contact extends Component {
             </div>
             <br />
 
-            <button className="pointer" type="submit">
+            <button
+              className="pointer"
+              type="submit"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
               Submit
             </button>
           </form>

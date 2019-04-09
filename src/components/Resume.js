@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Resume = () => {
   return (
@@ -45,6 +46,17 @@ const Resume = () => {
             <p>Artistix (Formerly The Evil Genius Group)</p>
             <h4>MARKETING & PR INTERN</h4>
           </div>
+        </div>
+
+        <div className="resume-button">
+          <Link to="/full-resume">
+            <button
+              className="pointer"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
+              VIEW FULL RESUME
+            </button>
+          </Link>
         </div>
       </div>
     </React.Fragment>

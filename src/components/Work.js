@@ -9,7 +9,10 @@ const Work = () => {
           — Iris is a copywriter, designer, and digital marketer from New York.
         </h5>
       </div>
-      <div className="images-container pointer">
+      <div
+        className="images-container pointer"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
         <div className="images-one">
           <div className="images-wrap black-wolf">
             <img src="/assets/blackWolf.jpg" alt="black wolf" />
@@ -43,7 +46,11 @@ const Work = () => {
         <div className="images-five">
           <div className="images-wrap hyperfundit-color">
             <Link to="/hyperfundit-business">
-              <img className="hyperfundit-color" src="/assets/hyperfunditColor.png" alt="hyperfundit color" />
+              <img
+                className="hyperfundit-color"
+                src="/assets/hyperfunditColor.png"
+                alt="hyperfundit color"
+              />
             </Link>
           </div>
           <div className="images-wrap white-xray">

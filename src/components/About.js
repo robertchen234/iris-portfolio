@@ -51,7 +51,12 @@ const About = () => {
         </div>
         <div className="contact-button">
           <Link to="/contact">
-            <button className="pointer">LET'S TALK</button>
+            <button
+              className="pointer"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
+              LET'S TALK
+            </button>
           </Link>
         </div>
       </div>

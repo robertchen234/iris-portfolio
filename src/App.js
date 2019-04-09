@@ -3,6 +3,7 @@ import { Route, Switch, withRouter } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Work from "./components/Work";
 import Resume from "./components/Resume";
+import FullResume from "./components/FullResume";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import IvyGalapagos from "./components/IvyGalapagos";
@@ -17,6 +18,7 @@ class App extends Component {
         <NavBar />
         <Switch>
           <Route path="/resume" component={Resume} />
+          <Route path="/full-resume" component={FullResume} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/ivy-galapagos" component={IvyGalapagos} />
