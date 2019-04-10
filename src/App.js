@@ -6,6 +6,7 @@ import Resume from "./components/Resume";
 import FullResume from "./components/FullResume";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import IvySummer from "./components/IvySummer";
 import IvyGalapagos from "./components/IvyGalapagos";
 import HyperfunditBusiness from "./components/HyperfunditBusiness";
 import Footer from "./components/Footer";
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path="/full-resume" component={FullResume} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/ivy-summer" component={IvySummer} />
           <Route path="/ivy-galapagos" component={IvyGalapagos} />
           <Route path="/hyperfundit-business" component={HyperfunditBusiness} />
           <Route path="/" component={Work} />

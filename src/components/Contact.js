@@ -21,7 +21,7 @@ class Contact extends Component {
             at{" "}
             <a
               href="mailto:iris.lee129@gmail.com"
-              rel="noopener"
+              rel="noopener noreferrer"
               target="_blank"
             >
               iris.lee129@gmail.com

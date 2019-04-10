@@ -117,6 +117,21 @@ pre {
   line-height: 18.5714px;
 }
 
+.overlay {
+  position: absolute;
+  width: 45vw;
+  height: 70vh;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+.overlay p {
+  margin: auto;
+  padding-top: 3em;
+  color: white;
+}
+
 .pointer {
   cursor: pointer;
 }
@@ -205,7 +220,13 @@ button a:hover {
   justify-content: flex-end;
 }
 
+.work {
+  display: flex;
+  flex-direction: column;
+}
+
 .banner {
+  order: 1;
   height: 60vh;
   display: flex;
 }
@@ -228,20 +249,34 @@ button a:hover {
 }
 
 .images-container {
+  order: 2;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  margin: 0em 3em 0em 3em;
 }
 
 .images-one,
 .images-three,
 .images-five {
   display: flex;
+  width: 90vw;
+  height: 70vh;
+  padding: 0.2em;
+}
+
+.images-one a,
+.images-three a,
+.images-five a {
+  display: flex;
+  width: 90vw;
+  height: 70vh;
 }
 
 .images-two,
 .images-four {
-  width: 100%;
+  width: 90vw;
+  height: 70vh;
+  padding: 0em 0.2em 0em 0.2em;
 }
 
 .images-one {
@@ -264,63 +299,28 @@ button a:hover {
   order: 5;
 }
 
-.images-wrap {
+.images-odd-left,
+.images-odd-right {
+  width: 50%;
+  height: 70vh;
   flex: 1;
-  display: flex;
-  border: 0.25em solid white;
-}
-
-.images-one img,
-.images-three img,
-.images-five img {
-  height: 70%;
   margin: auto;
   object-fit: cover;
 }
 
-.images-two img,
-.images-four img {
-  max-width: 100%;
+.images-odd-left {
+  padding-right: 0.125em;
+}
+
+.images-odd-right {
+  padding-left: 0.125em;
+}
+
+.images-even-center {
+  width: 100%;
   height: 70vh;
   margin: auto;
   object-fit: cover;
-}
-
-.black-wolf {
-  background-color: #1f1f21;
-}
-
-.blue-drop {
-  background-color: #9ad5e5;
-}
-
-.ivy-galapagos {
-  /* background-color: #ffffff; */
-  display: flex;
-}
-
-.red-berlin {
-  background-color: #ef4723;
-}
-
-.orange-vanguard {
-  background-color: #eca938;
-}
-
-.blue-morale {
-  background-color: #15b9ba;
-  display: flex;
-  max-width: 100%;
-}
-
-.hyperfundit-color {
-  /* background-color: #9fceba; */
-  min-height: 100%;
-  object-fit: cover;
-}
-
-.white-xray {
-  background-color: #f1eee9;
 }
 
 .resume,
@@ -455,7 +455,7 @@ button a:hover {
 }
 
 .contact p a {
-  color: #8781bd
+  color: #8781bd;
 }
 
 .contact form {
@@ -485,13 +485,15 @@ textarea {
   margin-bottom: 4em;
 }
 
-.ivy-galapagos-container {
+.ivy-galapagos-container,
+.ivy-summer-container {
   margin-top: 4em;
   margin-bottom: 4em;
   text-align: center;
 }
 
-.ivy-galapagos-text {
+.ivy-galapagos-text,
+.ivy-summer-text {
   max-width: 50%;
 }
 

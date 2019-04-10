@@ -6,14 +6,14 @@ const Footer = () => {
       <span className="footer-socials">
         <a
           href="https://www.instagram.com/iriszlee/"
-          rel="noopener"
+          rel="noopener noreferrer"
           target="_blank"
         >
           <img src="/assets/instagram.png" alt="instagram" />
         </a>
         <a
           href="https://www.linkedin.com/in/iris-lee129/"
-          rel="noopener"
+          rel="noopener noreferrer"
           target="_blank"
         >
           <img src="/assets/linkedin.png" alt="linkedin" />
