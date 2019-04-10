@@ -126,6 +126,10 @@ pre {
   display: flex;
 }
 
+.overlay-full {
+  width: 90vw;
+}
+
 .overlay h2 {
   margin: auto;
   color: white;
@@ -137,6 +141,14 @@ pre {
 .overlay h2 img {
   width: 1em;
   height: 1em;
+}
+
+.show {
+  display: flex;
+}
+
+.hide {
+  display: none;
 }
 
 .pointer {

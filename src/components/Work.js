@@ -3,25 +3,25 @@ import { Link } from "react-router-dom";
 
 class Work extends Component {
   state = {
-    status: "none"
+    current: ""
   };
 
-  onMouseEnterHandler = () => {
-    this.setState({ status: "flex" });
+  onMouseEnterHandler = e => {
+    this.setState({ current: e.target.name });
   };
 
-  onMouseLeavehandler = () => {
-    this.setState({ status: "none" });
+  onMouseLeavehandler = e => {
+    this.setState({ current: "" });
   };
 
   render() {
     return (
       <div className="work">
         <div className="banner">
-          <h2>
+          <h5>
             — Iris is a copywriter, designer, and digital marketer from New
             York.
-          </h2>
+          </h5>
         </div>
         <div className="images-container">
           <div className="images-one">
@@ -36,24 +36,37 @@ class Work extends Component {
                 className="images-odd-left pointer"
                 src="/assets/kids.jpg"
                 alt="kids"
+                name="kids"
               />
               <span
-                className="overlay"
-                style={{ display: `${this.state.status}` }}
+                className={
+                  this.state.current === "kids" ? "overlay show" : "overlay hide"
+                }
               >
                 <h2>Building a better tomorrow with One Hope United</h2>
               </span>
             </a>
-            <Link
-              to="/ivy-summer"
-              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            <a
+              href="http://magazine.ivy.com/2019/01/how-you-can-apply-ai-to-your-business/"
+              rel="noopener noreferrer"
+              target="_blank"
+              onMouseEnter={this.onMouseEnterHandler}
+              onMouseLeave={this.onMouseLeavehandler}
             >
               <img
-                className="images-odd-right pointer"
-                src="/assets/summer.jpg"
-                alt="summer"
+                className="images-even-center pointer"
+                src="/assets/hands.jpg"
+                alt="hands"
+                name="hands"
               />
-            </Link>
+              <span
+                className={
+                  this.state.current === "hands" ? "overlay show" : "overlay hide"
+                }
+              >
+                <h2>How you can apply AI to your business</h2>
+              </span>
+            </a>
           </div>
 
           <div className="images-two">
@@ -81,10 +94,12 @@ class Work extends Component {
                 className="images-odd-left pointer"
                 src="/assets/rbg.jpg"
                 alt="rbg"
+                name="rbg"
               />
               <span
-                className="overlay"
-                style={{ display: `${this.state.status}` }}
+                className={
+                  this.state.current === "rbg" ? "overlay show" : "overlay hide"
+                }
               >
                 <h2>
                   <img src="assets/heart.png" alt="heart" /> 1,054{" "}
@@ -106,18 +121,16 @@ class Work extends Component {
           </div>
 
           <div className="images-four">
-            <a
-              href="http://magazine.ivy.com/2019/01/how-you-can-apply-ai-to-your-business/"
-              rel="noopener noreferrer"
-              target="_blank"
+            <Link
+              to="/ivy-summer"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
               <img
-                className="images-even-center pointer"
-                src="/assets/hands.jpg"
-                alt="hands"
+                className="images-odd-right pointer"
+                src="/assets/summer.jpg"
+                alt="summer"
               />
-              <h2>How you can apply AI to your business</h2>
-            </a>
+            </Link>
           </div>
 
           <div className="images-five">
@@ -142,10 +155,12 @@ class Work extends Component {
                 className="images-odd-right pointer"
                 src="/assets/alysia.jpg"
                 alt="alysia"
+                name="alysia"
               />
               <span
-                className="overlay"
-                style={{ display: `${this.state.status}` }}
+                className={
+                  this.state.current === "alysia" ? "overlay show" : "overlay hide"
+                }
               >
                 <h2>Alysia Reiner on women empowerment</h2>
               </span>
