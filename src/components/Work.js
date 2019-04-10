@@ -40,7 +40,9 @@ class Work extends Component {
               />
               <span
                 className={
-                  this.state.current === "kids" ? "overlay show" : "overlay hide"
+                  this.state.current === "kids"
+                    ? "overlay show"
+                    : "overlay hide"
                 }
               >
                 <h2>Building a better tomorrow with One Hope United</h2>
@@ -54,14 +56,16 @@ class Work extends Component {
               onMouseLeave={this.onMouseLeavehandler}
             >
               <img
-                className="images-even-center pointer"
+                className="images-odd-right pointer"
                 src="/assets/hands.jpg"
                 alt="hands"
                 name="hands"
               />
               <span
                 className={
-                  this.state.current === "hands" ? "overlay show" : "overlay hide"
+                  this.state.current === "hands"
+                    ? "overlay show"
+                    : "overlay hide"
                 }
               >
                 <h2>How you can apply AI to your business</h2>
@@ -126,7 +130,7 @@ class Work extends Component {
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
               <img
-                className="images-odd-right pointer"
+                className="images-even-center pointer"
                 src="/assets/summer.jpg"
                 alt="summer"
               />
@@ -159,7 +163,9 @@ class Work extends Component {
               />
               <span
                 className={
-                  this.state.current === "alysia" ? "overlay show" : "overlay hide"
+                  this.state.current === "alysia"
+                    ? "overlay show"
+                    : "overlay hide"
                 }
               >
                 <h2>Alysia Reiner on women empowerment</h2>
