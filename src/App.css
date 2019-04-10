@@ -126,10 +126,17 @@ pre {
   display: flex;
 }
 
-.overlay p {
+.overlay h2 {
   margin: auto;
-  padding-top: 3em;
   color: white;
+  margin-right: 3em;
+  margin-left: 3em;
+  text-align: center;
+}
+
+.overlay h2 img {
+  width: 1em;
+  height: 1em;
 }
 
 .pointer {

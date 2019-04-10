@@ -18,10 +18,10 @@ class Work extends Component {
     return (
       <div className="work">
         <div className="banner">
-          <h5>
+          <h2>
             — Iris is a copywriter, designer, and digital marketer from New
             York.
-          </h5>
+          </h2>
         </div>
         <div className="images-container">
           <div className="images-one">
@@ -41,7 +41,7 @@ class Work extends Component {
                 className="overlay"
                 style={{ display: `${this.state.status}` }}
               >
-                <p>"Building a better tomorrow with One Hope United"</p>
+                <h2>Building a better tomorrow with One Hope United</h2>
               </span>
             </a>
             <Link
@@ -86,17 +86,10 @@ class Work extends Component {
                 className="overlay"
                 style={{ display: `${this.state.status}` }}
               >
-                <p>
-                  <span role="img" aria-label="heart" alt="heart">
-                    ❤️
-                  </span>{" "}
-                  1,054{"     "}
-                  <span role="img" aria-label="chat" alt="chat">
-                    {" "}
-                    💬
-                  </span>{" "}
-                  14
-                </p>
+                <h2>
+                  <img src="assets/heart.png" alt="heart" /> 1,054{" "}
+                  <img src="assets/chat.png" alt="chat" /> 14
+                </h2>
               </span>
             </a>
             <a
@@ -111,7 +104,7 @@ class Work extends Component {
               />
             </a>
           </div>
-          
+
           <div className="images-four">
             <a
               href="http://magazine.ivy.com/2019/01/how-you-can-apply-ai-to-your-business/"
@@ -123,7 +116,7 @@ class Work extends Component {
                 src="/assets/hands.jpg"
                 alt="hands"
               />
-              <p>"How you can apply AI to your business"</p>
+              <h2>How you can apply AI to your business</h2>
             </a>
           </div>
 
@@ -154,7 +147,7 @@ class Work extends Component {
                 className="overlay"
                 style={{ display: `${this.state.status}` }}
               >
-                <p>"Alysia Reiner on women empowerment"</p>
+                <h2>Alysia Reiner on women empowerment</h2>
               </span>
             </a>
           </div>
