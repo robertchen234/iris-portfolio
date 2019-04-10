@@ -138,9 +138,15 @@ pre {
   text-align: center;
 }
 
+.overlay .smaller-h2 {
+  margin: auto;
+  font-size: 38px;
+  text-align: center;
+}
+
 .overlay h2 img {
-  width: 1em;
-  height: 1em;
+  width: 0.75em;
+  height: 0.75em;
 }
 
 .show {

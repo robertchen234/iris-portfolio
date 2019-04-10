@@ -105,7 +105,7 @@ class Work extends Component {
                   this.state.current === "rbg" ? "overlay show" : "overlay hide"
                 }
               >
-                <h2>
+                <h2 className="smaller-h2">
                   <img src="assets/heart.png" alt="heart" /> 1,054{" "}
                   <img src="assets/chat.png" alt="chat" /> 14
                 </h2>
