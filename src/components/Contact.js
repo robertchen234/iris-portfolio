@@ -17,7 +17,7 @@ class Contact extends Component {
         </div>
         <div className="contact">
           <p>
-            Find me on social media, use the form below, or hit me up via email
+            Find me on social media or hit me up via email
             at{" "}
             <a
               href="mailto:iris.lee129@gmail.com"
@@ -29,7 +29,7 @@ class Contact extends Component {
             .
           </p>
 
-          <form onSubmit={this.submitHandler}>
+          {/* <form onSubmit={this.submitHandler}>
             <div className="contact-email">
               <label htmlFor="email">Email Address: *</label>
               <br />
@@ -80,7 +80,7 @@ class Contact extends Component {
             >
               Submit
             </button>
-          </form>
+          </form> */}
         </div>
       </React.Fragment>
     );
