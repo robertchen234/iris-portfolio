@@ -118,8 +118,8 @@ class Work extends Component {
             >
               <img
                 className="images-odd-right pointer"
-                src="/assets/orangeVanguard.jpg"
-                alt="orange vanguard"
+                src="/assets/reseller.jpg"
+                alt="reseller"
               />
             </a>
           </div>
