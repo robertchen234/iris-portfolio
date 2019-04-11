@@ -119,7 +119,7 @@ pre {
 
 .overlay {
   position: absolute;
-  width: 45vw;
+  width: 70vh;
   height: 70vh;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.5);
@@ -127,7 +127,7 @@ pre {
 }
 
 .overlay-full {
-  width: 90vw;
+  width: 140vh;
 }
 
 .overlay h2 {
@@ -284,7 +284,7 @@ button a:hover {
 .images-three,
 .images-five {
   display: flex;
-  width: 90vw;
+  width: 140vh;
   height: 70vh;
   padding: 0.2em;
 }
@@ -293,13 +293,13 @@ button a:hover {
 .images-three a,
 .images-five a {
   display: flex;
-  width: 90vw;
+  width: 140vh;
   height: 70vh;
 }
 
 .images-two,
 .images-four {
-  width: 90vw;
+  width: 140vh;
   height: 70vh;
   padding: 0em 0.2em 0em 0.2em;
 }
