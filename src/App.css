@@ -746,7 +746,7 @@ textarea {
 
 .ivy-galapagos-text,
 .ivy-summer-text {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .hyperfundit-business-container {
@@ -756,7 +756,7 @@ textarea {
 }
 
 .hyperfundit-business-container img {
-  max-width: 100%;
+  max-width: 90%;
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
