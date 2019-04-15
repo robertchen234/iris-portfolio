@@ -20,7 +20,7 @@ const HyperfunditBusiness = () => {
       />
       <img
         className="shadow"
-        src="/assets/hyperfunditBlackBack.jpg"
+        src="/assets/hyperfunditBlackBack.png"
         alt="hyperfundit black back"
       />
     </div>
